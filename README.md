@@ -1,6 +1,6 @@
 # Next.js Micro Apps Practice
 
-A curated collection of focused Next.js micro applications built to master modern web development through rapid, time-constrained challenges. Each app is designed to be completed within **2 hours**, pushing the boundaries of efficient development while exploring specific Next.js features, patterns, and best practices.
+A collection of Next.js micro applications built for practice. Each app is completed within **2 hours** and focuses on specific Next.js features, patterns, and best practices.
 
 ## Process
 
