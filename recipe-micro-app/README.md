@@ -13,25 +13,7 @@ A simple recipe search application that allows users to search and browse recipe
 ### Design
 
 **v0 Design Mockup:**
-
-<!-- Add v0 design screenshot/link here -->
+<img width="1457" height="899" alt="Screenshot 2025-11-11 at 9 08 28 PM" src="https://github.com/user-attachments/assets/627c8409-0570-4979-addc-8dd825f255f9" />
 
 **Final Implementation:**
-
-<!-- Add screenshot of actual implementation here -->
-
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<img width="1625" height="964" alt="Screenshot 2025-11-11 at 9 09 44 PM" src="https://github.com/user-attachments/assets/6cbf6257-c23c-42fb-b9d4-bc0cc2ad8fc9" />
