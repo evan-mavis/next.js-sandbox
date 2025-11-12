@@ -3,8 +3,12 @@ import { Suspense } from "react";
 import Loading from "./Loading";
 import { getRecipes } from "@/lib/data";
 
-export default async function RecipesGrid() {
-  const recipes = (await getRecipes("pasta")) ?? [];
+type RecipesGridProps = {
+  query: string;
+};
+
+export default async function RecipesGrid({ query }: RecipesGridProps) {
+  const recipes = (await getRecipes(query)) ?? [];
 
   return (
     <Suspense fallback={<Loading message="Loading Recipes..." />}>
