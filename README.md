@@ -1,4 +1,4 @@
-# Next.js Micro Apps Practice
+# Next.js Micro Apps Practice 🧑‍🎓
 
 A collection of Next.js micro applications built for practice. Each app is completed within **2 hours** and focuses on specific Next.js features, patterns, and best practices.
 
