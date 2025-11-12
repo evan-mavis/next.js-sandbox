@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Users as UsersIcon, Dot as DotIcon } from "lucide-react";
 import type { Recipe } from "@/types/recipes";
+import { cleanAndTruncateSummary } from "@/lib/utils";
 
 type RecipeProps = {
   recipe: Recipe;
@@ -11,7 +12,7 @@ export default function Recipe({ recipe }: RecipeProps) {
     <div className="text-[#99a1af] flex flex-col items-center justify-center hover:-translate-y-2 transition-all duration-300 cursor-pointer">
       <Image
         src={recipe.image}
-        alt={recipe.name}
+        alt={recipe.title}
         width={350}
         height={230}
         quality={100}
@@ -19,17 +20,20 @@ export default function Recipe({ recipe }: RecipeProps) {
       />
       <div className="text-md  flex flex-col gap-2">
         <div className="flex gap-2 items-center justify-between">
-          <h6 className="text-black">{recipe.name}</h6>
-          <p>{recipe.timeInMinutes}m</p>
+          <h6 className="text-black">{recipe.title}</h6>
+          <p>{recipe.readyInMinutes}m</p>
         </div>
-        <p>{recipe.description}</p>
+        <p>{cleanAndTruncateSummary(recipe.summary || "", 150)}</p>
         <div className="flex gap-2 items-center">
           <span className="flex gap-2 items-center">
             <UsersIcon size={16} />
             <p>{recipe.servings} servings</p>
           </span>
           <DotIcon />
-          <p>{recipe.level.charAt(0).toUpperCase() + recipe.level.slice(1)}</p>
+          <p>
+            {recipe?.level?.charAt(0).toUpperCase() + recipe?.level?.slice(1) ||
+              "Easy"}
+          </p>
         </div>
       </div>
     </div>

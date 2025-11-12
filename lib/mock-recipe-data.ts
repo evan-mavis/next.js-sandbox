@@ -4,81 +4,81 @@ export const recipes: Recipe[] = [
   {
     id: 1,
     image: "/pizza.jpeg",
-    name: "Lemon Herb Salmon",
-    description:
+    title: "Lemon Herb Salmon",
+    summary:
       "Oven-baked salmon fillets brushed with lemon, dill, and garlic butter.",
     servings: 2,
-    timeInMinutes: 25,
+    readyInMinutes: 25,
     level: "easy",
   },
   {
     id: 2,
     image: "/pizza.jpeg",
-    name: "Smoky Chickpea Stew",
-    description:
+    title: "Smoky Chickpea Stew",
+    summary:
       "Tomato-based stew with chickpeas, smoked paprika, and wilted greens.",
     servings: 4,
-    timeInMinutes: 35,
+    readyInMinutes: 35,
     level: "easy",
   },
   {
     id: 3,
     image: "/pizza.jpeg",
-    name: "Miso Ramen Bowl",
-    description:
+    title: "Miso Ramen Bowl",
+    summary:
       "Rich miso broth with ramen noodles, soft eggs, and seasonal vegetables.",
     servings: 2,
-    timeInMinutes: 45,
+    readyInMinutes: 45,
     level: "medium",
   },
   {
     id: 4,
     image: "/pizza.jpeg",
-    name: "Charred Corn Tacos",
-    description:
+    title: "Charred Corn Tacos",
+    summary:
       "Grilled corn and poblano peppers folded into warm tortillas with crema.",
     servings: 3,
-    timeInMinutes: 20,
+    readyInMinutes: 20,
     level: "easy",
   },
   {
     id: 5,
     image: "/pizza.jpeg",
-    name: "Tuscan White Bean Pasta",
-    description:
+    title: "Tuscan White Bean Pasta",
+    summary:
       "Ribbon pasta tossed in a creamy white bean sauce with sun-dried tomatoes.",
     servings: 4,
-    timeInMinutes: 30,
+    readyInMinutes: 30,
     level: "medium",
   },
   {
     id: 6,
     image: "/pizza.jpeg",
-    name: "Thai Basil Stir-Fry",
-    description:
+    title: "Thai Basil Stir-Fry",
+    summary:
       "Spicy ground chicken sautéed with Thai basil and crisp vegetables.",
     servings: 2,
-    timeInMinutes: 25,
+    readyInMinutes: 25,
     level: "easy",
   },
   {
     id: 7,
     image: "/pizza.jpeg",
-    name: "Moroccan Lamb Tagine",
-    description:
+    title: "Moroccan Lamb Tagine",
+    summary:
       "Slow-cooked lamb with apricots, almonds, and warm Moroccan spices.",
     servings: 6,
-    timeInMinutes: 95,
+    readyInMinutes: 95,
     level: "hard",
   },
   {
     id: 8,
     image: "/pizza.jpeg",
-    name: "Matcha Cheesecake Bars",
-    description:
+    title: "Matcha Cheesecake Bars",
+    summary:
       "Silky baked cheesecake infused with matcha on a crumbly cookie crust.",
     servings: 12,
-    timeInMinutes: 70,
+    readyInMinutes: 70,
     level: "medium",
   },
 ];

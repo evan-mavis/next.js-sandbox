@@ -1,9 +1,9 @@
 export type Recipe = {
   id: number;
   image: string;
-  name: string;
-  description: string;
+  title: string;
+  summary: string;
   servings: number;
-  timeInMinutes: number;
+  readyInMinutes: number;
   level: "easy" | "medium" | "hard";
 };
