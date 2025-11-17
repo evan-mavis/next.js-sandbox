@@ -3,6 +3,7 @@
 A beautiful color palette generator that creates random 5-color palettes with copy-to-clipboard functionality and URL-based state management.
 
 **Completion Time**: 1 hour and 2 minutes
+
 <img width="662" height="451" alt="image" src="https://github.com/user-attachments/assets/30d3d320-4922-442b-93a8-7b8dbad48e84" />
 
 ### Goals
