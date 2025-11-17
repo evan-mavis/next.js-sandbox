@@ -8,7 +8,6 @@ type CardProps = {
   isCopied: boolean;
 };
 export default function Card({ color, handleCopy, isCopied }: CardProps) {
-  console.log(color);
   return (
     <div
       onClick={() => handleCopy(color)}

@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Color Palette Micro App
 
-## Getting Started
+A beautiful color palette generator that creates random 5-color palettes with copy-to-clipboard functionality and URL-based state management.
 
-First, run the development server:
+**Completion Time**: ~2 hours
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Goals
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Server Components**: Generate color palettes server-side using seeded random number generation
+2. **Next.js SearchParams**: Implement URL-based state management using Next.js `searchParams` API for shareable palettes
+3. **Client/Server Component Separation**: Properly separate client interactivity (copy, hover effects) from server-side generation
+4. **Interactive UI**: Implement smooth animations, hover effects, and visual feedback for user interactions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Random Color Generation**: Generates 5 random hex colors using seeded random number generation
+- **Copy to Clipboard**: Click any color card to copy its hex code to clipboard
+- **Visual Feedback**: Hover effects with color-matched glow, scale animations, and "Copied!" confirmation
+- **Shareable URLs**: Each palette has a unique seed in the URL, making palettes shareable
+- **Responsive Design**: Clean, modern UI with gradient backgrounds and smooth transitions
 
-## Learn More
+### Technical Implementation
 
-To learn more about Next.js, take a look at the following resources:
+- **Server Components**: Main page component generates colors server-side
+- **Seeded Random**: Uses `Math.sin()` based seeded random for reproducible color generation
+- **URL State Management**: Uses `searchParams` to trigger regeneration and enable sharing
+- **Client Components**: Interactive elements (cards, button) are client components for browser APIs
+- **Tailwind CSS**: Styled with Tailwind CSS including custom gradients and animations
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Design
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**v0 Design Mockup:**
+_Add v0 design screenshot here_
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Final Implementation:**
+_Add final implementation screenshot here_
