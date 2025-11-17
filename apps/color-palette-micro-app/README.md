@@ -17,10 +17,10 @@ A beautiful color palette generator that creates random 5-color palettes with co
 
 **v0 Design Mockup:**
 
-<img width="662" height="451" alt="image" src="https://github.com/user-attachments/assets/fa0c7533-f553-4099-b848-664d86a1dab2" />
-
+<img width="1312" height="851" alt="image" src="https://github.com/user-attachments/assets/3792fe6c-1720-49c5-a2e3-5c81aaa7fd51" />
 
 **Final Implementation:**
 
-<img width="662" height="451" alt="image" src="https://github.com/user-attachments/assets/5ce2aee5-739d-4181-a323-6f20828a8a77" />
+<img width="1257" height="950" alt="image" src="https://github.com/user-attachments/assets/3af6f834-0256-421b-8280-ec021e259163" />
+
 
