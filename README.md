@@ -13,7 +13,9 @@ For each micro app, I follow this workflow:
 
 ## Micro Apps
 
-### 1. [Recipe Micro App](./recipe-micro-app/README.md)
+### 1. [Recipe Micro App](apps/recipe-micro-app/README.md)
+
+### 2. [Color Palette Micro App](apps/color-palette-micro-app/README.md)
 
 ---
 
