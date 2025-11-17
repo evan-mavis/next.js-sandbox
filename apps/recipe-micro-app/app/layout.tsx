@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Recipe Finder",
   description:
     "Discover delicious recipes from around the world! Search by name ingredient or cuisine type",
+  icons: {
+    icon: "/icon.svg",
+  },
 };
 
 export default function RootLayout({
