@@ -4,6 +4,8 @@ A simple recipe search application that allows users to search and browse recipe
 
 **Completion Time**: 1 hour and 58 minutes
 
+<img width="643" height="434" alt="Screenshot 2025-11-11 at 9 13 30 PM" src="https://github.com/user-attachments/assets/e41c3eb1-3428-4555-a18a-a0a612b92f54" />
+
 ### Goals
 
 1. **Pixel-perfect implementation**: Match the v0 design mockup with high fidelity
