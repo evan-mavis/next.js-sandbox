@@ -17,6 +17,8 @@ For each micro app, I follow this workflow:
 
 ### 2. [Color Palette Micro App](apps/color-palette-micro-app/README.md)
 
+### 3. [Streaming Micro App](apps/streaming-micro-app/README.md)
+
 ---
 
 ## Getting Started
