@@ -26,11 +26,8 @@ For each micro app, I follow this workflow:
 Each micro app is self-contained. Navigate to the specific app directory and run:
 
 ```bash
-npm run dev
-# or
 pnpm dev
-# or
-yarn dev
 ```
+you should be using pnpm ;}
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
