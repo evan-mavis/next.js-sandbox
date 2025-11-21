@@ -2,7 +2,9 @@
 
 A demonstration of Next.js streaming SSR capabilities, showcasing progressive loading with Suspense boundaries and nested streaming patterns.
 
-**Completion Time**: [To be filled]
+**Completion Time**: 1 hour
+
+(no screenshot... trust me)
 
 ### Goals
 
@@ -14,4 +16,9 @@ A demonstration of Next.js streaming SSR capabilities, showcasing progressive lo
 ### Design
 
 **Not applicable for this micro app**
+
 but here is the final result...
+
+<img width="1882" height="809" alt="Screenshot 2025-11-20 at 10 05 12 PM" src="https://github.com/user-attachments/assets/669a602d-2ee4-4960-aa75-c1fd966aacb7" />
+
+<img width="1743" height="791" alt="Screenshot 2025-11-20 at 10 06 45 PM" src="https://github.com/user-attachments/assets/1004de60-b844-4c71-b6f7-75c969045b2a" />
